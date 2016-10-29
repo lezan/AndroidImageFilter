@@ -79,7 +79,7 @@ extern "C" {
     }
 
     jstring
-    Java_polito_artuino_FilterActivity_xdog(JNIEnv *env, jobject, jstring imageSourcePathString, jstring imageOutputPathString, double kappa, double sigma, double tau, double phi) {
+    Java_lezan_androidimagefilter_FilterActivity_xdog(JNIEnv *env, jobject, jstring imageSourcePathString, jstring imageOutputPathString, double kappa, double sigma, double tau, double phi) {
 
         const char* imageSourcePath = env->GetStringUTFChars(imageSourcePathString, 0);
         const char* imageOutputPath = env->GetStringUTFChars(imageOutputPathString, 0);
@@ -94,6 +94,38 @@ extern "C" {
         bool result = saveResult(pathWhereToSave, xdog);
 
         if(!result) {
+            return env->NewStringUTF("False");
+        }
+        return env->NewStringUTF(pathWhereToSave.c_str());
+    }
+
+    jstring
+    Java_lezan_androidimagefilter_FilterActivity_adaptiveThreshold(JNIEnv *env, jobject, jstring imageSourcePathString, jstring imageOutputPathString, int adaptiveMethod, int blockSize, double constant) {
+
+        const char* imageSourcePath = env->GetStringUTFChars(imageSourcePathString, 0);
+        const char* imageOutputPath = env->GetStringUTFChars(imageOutputPathString, 0);
+        string imageNameOutput = "/threshold.png";
+        string pathWhereToSave = imageOutputPath + imageNameOutput;
+
+        Mat img = imread(imageSourcePath, IMREAD_COLOR);
+
+        /* Creo una nuova matrice a partire dalla matrice sorgente */
+        Mat gray;
+        /* Converto la matrice sorgente in scala di grigi */
+        cvtColor(img, gray, COLOR_BGR2GRAY);
+
+        /* Applico una sfocatura all'immagine in scale di grigi */
+        medianBlur(gray, gray, 5);
+        //GaussianBlur(gray, gray, Size(5, 5), 0);
+
+        /* Creo la matrice che conterrà il risultato finale */
+        Mat result;
+        /* Applico il threshold alla matrice in scala di grigi ottenendo un'immagine binaria */
+        adaptiveThreshold(gray, result, 255, adaptiveMethod, THRESH_BINARY, blockSize, constant);
+
+        bool final = imwrite(pathWhereToSave, result);
+
+        if(!final) {
             return env->NewStringUTF("False");
         }
         return env->NewStringUTF(pathWhereToSave.c_str());
