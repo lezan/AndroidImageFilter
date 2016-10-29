@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:divider="@drawable/crop__divider"
+    android:showDividers="middle"
+    android:dividerPadding="12dp"
+    android:backgroundTint="#f9f3ea">
+
+    <FrameLayout
+        android:id="@+id/btn_back"
+        android:onClick="goBack"
+        style="@style/ActionButton">
+        <TextView style="@style/ActionButtonText.Back" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn_next"
+        android:onClick="sendArduino"
+        style="@style/ActionButton">
+        <TextView style="@style/ActionButtonText.Send" />
+    </FrameLayout>
+
+</LinearLayout>

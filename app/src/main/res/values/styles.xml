@@ -1,0 +1,47 @@
+<resources xmlns:ns1="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style comuni alla CropActivity e alla FilterActivity -->
+    <style name="ActionButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/crop__selectable_background</item>
+    </style>
+
+    <style name="ActionButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textColor">@color/color_ActionButtonText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily" ns1:targetApi="16">serif-monospace</item>
+    </style>
+
+    <style name="ActionButtonText.Back">
+        <item name="android:drawableLeft">@drawable/ic_back</item>
+        <item name="android:text">@string/go_back</item>
+    </style>
+
+    <!-- Style della CropActivity -->
+    <style name="ActionButtonText.Resize">
+        <item name="android:drawableRight">@drawable/ic_next</item>
+        <item name="android:text">@string/go_resize</item>
+    </style>
+
+    <!-- Style della FilterActivity -->
+    <style name="ActionButtonText.Send">
+        <item name="android:drawableRight">@drawable/ic_sendarduino</item>
+        <item name="android:text">@string/send_arduino</item>
+    </style>
+
+</resources>

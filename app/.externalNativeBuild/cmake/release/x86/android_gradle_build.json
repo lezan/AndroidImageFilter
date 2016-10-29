@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/lezan/AndroidStudioProjects/AndroidImageFilter/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\lezan\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\lezan\\AndroidStudioProjects\\AndroidImageFilter\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "C:/Users/lezan/AndroidStudioProjects/AndroidImageFilter/app/src/main/jniLibs/x86/libopencv_java3.so",
+			"toolchain" : "788208473"
+		},
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\lezan\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\lezan\\AndroidStudioProjects\\AndroidImageFilter\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain C:/Users/lezan/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/lezan/AppData/Local/Android/sdk/ndk-bundle/platforms/android-23/arch-x86  -Dnative_lib_EXPORTS -IC:\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem C:\\Users\\lezan\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\lezan\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem C:\\Users\\lezan\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -std=c++11 -frtti -fexceptions -std=gnu++11 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/lezan/AndroidStudioProjects/AndroidImageFilter/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/lezan/AndroidStudioProjects/AndroidImageFilter/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "C:/Users/lezan/AndroidStudioProjects/AndroidImageFilter/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "788208473"
+		}
+	},
+	"toolchains" : 
+	{
+		"788208473" : 
+		{
+			"cCompilerExecutable" : "C:/Users/lezan/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/lezan/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

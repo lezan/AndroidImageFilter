@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Artuino</string>
+    <string name="camera" translatable="false">Camera</string>
+    <string name="gallery" translatable="false">Gallery</string>
+    <string name="facebook" translatable="false">Facebook</string>
+
+    <string name="go_back">Back</string>
+    <string name="go_resize">Resize</string>
+    <string name="send_arduino">Send</string>
+
+    <string name="method_prompt" translatable="false">Method</string>
+    <string name="switchxdog" translatable="false">XDoG</string>
+    <string name="btn_filter" translatable="false">Try</string>
+    <string name="kappastring" translatable="false">Kappa</string>
+    <string name="kappavalue" translatable="false">4.5</string>
+    <string name="sigmastring" translatable="false">Sigma</string>
+    <string name="sigmavalue" translatable="false">0.5</string>
+    <string name="taustring" translatable="false">Tau</string>
+    <string name="tauvalue" translatable="false">0.95</string>
+    <string name="phistring" translatable="false">Phi</string>
+    <string name="phivalue" translatable="false">10.0</string>
+    <string name="adaptive_method" translatable="false">Adaptive Method</string>
+    <string name="block_size" translatable="false">Block Size</string>
+    <string name="block_sizevalue" translatable="false">51</string>
+    <string name="constantvalue" translatable="false">10.0</string>
+    <string name="constantstring" translatable="false">Constant</string>
+    <string name="switchmean" translatable="false">Mean</string>
+</resources>

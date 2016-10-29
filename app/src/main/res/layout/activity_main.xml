@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="10dp"
+              tools:context="polito.artuino.MainActivity"
+              android:orientation="vertical"
+              android:background="@drawable/buildings"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/header"
+        android:id="@+id/appname"
+        android:contentDescription="@string/app_name"
+        android:layout_weight="1.09" />
+
+    <!-- Layout Camera -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageButton
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_photocamera"
+            android:id="@+id/imageView1"
+            android:background="#FFF9B780"
+            android:scaleType="fitCenter"
+            android:padding="3dp"
+            android:onClick="getPicture"
+            android:contentDescription="@null"/>
+
+        <Button
+            android:text="@string/camera"
+            android:layout_width="match_parent"
+            android:id="@+id/button1"
+            android:textSize="50sp"
+            android:typeface="monospace"
+            android:textAlignment="textStart"
+            android:layout_height="match_parent"
+            android:background="#FFF9B780"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:fontFamily="serif-monospace"
+            android:onClick="getPicture"
+            android:contentDescription="@null"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+    <!-- Layout Gallery -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageButton
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_photogallery"
+            android:id="@+id/imageView2"
+            android:scaleType="fitCenter"
+            android:padding="3dp"
+            android:background="#FFD96378"
+            android:onClick="getFromGallery"
+            android:contentDescription="@null" />
+
+        <Button
+            android:text="@string/gallery"
+            android:layout_width="match_parent"
+            android:id="@+id/button2"
+            android:textSize="50sp"
+            android:typeface="monospace"
+            android:textAlignment="textStart"
+            android:layout_height="match_parent"
+            android:background="#FFD96378"
+            android:onClick="getFromGallery"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:fontFamily="serif-monospace"
+            android:contentDescription="@null"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <!-- Layout Facebook -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageButton
+            android:layout_width="79dp"
+            app:srcCompat="@drawable/ic_facebooklogo"
+            android:id="@+id/imageView3"
+            android:background="#FF3F86A2"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@null" />
+
+        <Button
+            android:text="@string/facebook"
+            android:layout_width="match_parent"
+            android:id="@+id/button3"
+            android:textSize="50sp"
+            android:typeface="monospace"
+            android:textAlignment="textStart"
+            android:layout_height="match_parent"
+            android:background="#FF3F86A2"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:fontFamily="serif-monospace"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
