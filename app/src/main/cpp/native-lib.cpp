@@ -57,8 +57,6 @@ extern "C" {
                  const double tau, const double phi) {
         Mat input = image.getMat();
 
-
-
         Mat &outRef = edge.getMatRef();
 
         edgeXDoG(input, outRef, kappa, sigma, tau, phi);
@@ -153,9 +151,9 @@ extern "C" {
         double phi = 20/255.0;
 
         Mat filter1;
-        GaussianBlur(gray, filter1, Size(20, 20), 6);
+        GaussianBlur(gray, filter1, Size(5, 5), 6);
         Mat filter2;
-        GaussianBlur(gray, filter2, Size(20, 20), 1.5);
+        GaussianBlur(gray, filter2, Size(5, 5), 1.5);
 
         Mat image1;
         filter2D(filter1, image1, -1, BORDER_CONSTANT);
@@ -170,16 +168,16 @@ extern "C" {
 
         for(int i = 1; i < result.rows; i++) {
             for(int j = 1; j < result.cols; j++) {
-                if(result.at(i, j) >= eps) {
-                    output.at(i, j) = 1;
+                if(result.at<float>(i, j) >= eps) {
+                    output.at<float>(i, j) = 1;
                 }
                 else {
-                    output.at(i, j) = 1 + tanh(phi*(result.at(i, j)) - eps);
+                    output.at<float>(i, j) = 1 + tanh(phi*(result.at<float>(i, j)) - eps);
                  }
             }
         }
 
-        bool final = imwrite(pathWhereToSave, result);
+        bool final = imwrite(pathWhereToSave, output);
 
         if(!final) {
             return env->NewStringUTF("False");

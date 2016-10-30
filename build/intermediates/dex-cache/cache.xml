@@ -3,30 +3,39 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_4043e5f3984a71f600f4b79e6cf5f7dc9f270adf.jar" />
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_efb2853d80f6f1b05b74ba061d8b96719d91c6c4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\lezan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7c85973a0096fadb788ea67bf33bf4cf9e077875.jar" />
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_d17ee603203c628473b4645a86bb291880b63ec9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_eeb378ff3cbb2cf7ffc8efb6ccadc9ae34624ec2.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_cb1086f253386fc87726bca1554b6693aac192be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_73348420725421a596c04f5a19b5a8ae85790a86.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,111 +48,264 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_91c52a7ef70c4024fbef6f79808797cdc5b3777c.jar" />
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ecce116833b2cca4bd2c01b1d223eb6978878a02.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c8c2eaaccef0cdb8966c9fb2176d21502ee9a31c.jar" />
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_4585a796c0bd8aa04c67acb3d0cf31121e327643.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_12e6b7a84debdf9ce505245bd025a55959c8db33.jar" />
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_a9ccd56bb2dbf453b1c05b84c52a39606007f584.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\AndroidImageFilter\openCVLibrary310\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_62f8cbbfd5f51e5dfa5c138e197ccfa356c370e3.jar" />
+        sha1="3cfd729e79a68337105bf470d662fe557fbdb2aa">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\AndroidImageFilter-openCVLibrary310-unspecified_f6ebbd2b74200feda1c823e189436323b1252822.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_99b450b5ed533d247026efface3e691c8073c431.jar" />
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_efb2853d80f6f1b05b74ba061d8b96719d91c6c4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_4585a796c0bd8aa04c67acb3d0cf31121e327643.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_dbbbe18efa30298900fa47ac94b76179f1711838.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_aae0bb0c78ed707920c03522ac52c658c90a5798.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_a3e7cf96244b3e62a6f66957380aae9ab266a879.jar" />
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_cb1086f253386fc87726bca1554b6693aac192be.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_01c92af40b1c239106e391f8150d8852f457cad7.jar" />
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_06af982e1169be45ba4dbeef3798954279b90dcb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\AndroidImageFilter\openCVLibrary310\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_024259a24ff9ddd1a488e2f303f3a817a0b2785a.jar" />
+        revision="25.0.0"
+        sha1="3cfd729e79a68337105bf470d662fe557fbdb2aa">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\AndroidImageFilter-openCVLibrary310-unspecified_f6ebbd2b74200feda1c823e189436323b1252822.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_4b28854ae33d2b859f7fc400aefc2163b4aad706.jar" />
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_04183a5266fcc78abc3b40692e8616fe16ac121b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_cd40a7c0ed7f15ee2232cfaf867c4b541508a3f5.jar" />
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_62956d4507e30bddecae486d600e6579809fe6b4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_9a940d653b55c5b09e8c2dc340a1437981607a48.jar" />
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ea967dba40278d285a6d2e4ec527bbac62d6fe6a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_a9ccd56bb2dbf453b1c05b84c52a39606007f584.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_4d7d634b16db7da68acc9e05ccfacaba06a49106.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_dbbbe18efa30298900fa47ac94b76179f1711838.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_06af982e1169be45ba4dbeef3798954279b90dcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_008fcf388fecb1c8fc36268cd08c164599342682.jar" />
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_d17ee603203c628473b4645a86bb291880b63ec9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_aae0bb0c78ed707920c03522ac52c658c90a5798.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_18fec5a03f4a33675b162375197957b382ec0043.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_04183a5266fcc78abc3b40692e8616fe16ac121b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_62956d4507e30bddecae486d600e6579809fe6b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.github.SilSph\android-crop\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9a38eaa2bb3b3f46a5ce41bc594908d681d2f26b">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.github.SilSph-android-crop-2.0.0_f081754b64e261ddb3edf032430baea63200e036.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ecce116833b2cca4bd2c01b1d223eb6978878a02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_4d7d634b16db7da68acc9e05ccfacaba06a49106.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_73348420725421a596c04f5a19b5a8ae85790a86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ea967dba40278d285a6d2e4ec527bbac62d6fe6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\lezan\AndroidStudioProjects\AndroidImageFilter\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_18fec5a03f4a33675b162375197957b382ec0043.jar" />
     </item>
 
 </items>
