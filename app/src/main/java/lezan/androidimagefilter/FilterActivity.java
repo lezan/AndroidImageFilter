@@ -2,6 +2,7 @@ package lezan.androidimagefilter;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -20,6 +21,8 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import org.opencv.android.OpenCVLoader;
+
+import java.io.File;
 
 public class FilterActivity extends AppCompatActivity {
 
@@ -62,6 +65,8 @@ public class FilterActivity extends AppCompatActivity {
 
     private static int ADAPTIVE_THRESH_MEAN_C = 0;
     private static int ADAPTIVE_THRESH_GAUSSIAN_C = 1;
+
+    private static String directoryName = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/Filter_image";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,11 +116,23 @@ public class FilterActivity extends AppCompatActivity {
         // Apply the adapter to the spinner
         snipperAdaptiveMethod.setAdapter(adapter);
 
+        createDirectoryStorage();
+
         setUriImageCropped();
 
         setImageSourcePath();
 
         handleFilter();
+
+        setImageViewOutput();
+    }
+
+    private void createDirectoryStorage() {
+
+        File mediaStorageDir = new File(directoryName);
+        if(!mediaStorageDir.isDirectory()) {
+            mediaStorageDir.mkdirs();
+        }
     }
 
     private void setUriImageCropped() {
@@ -154,13 +171,11 @@ public class FilterActivity extends AppCompatActivity {
                     xDOGMethod();
                     break;
             }
-
-            setImageViewOutput();
         }
     }
 
     private void adaptiveThresholdMethod() {
-        outputImagePath = adaptiveThreshold(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/AndroidImageFilter", checkAdaptiveMethod(), getCheckBlockSize(), getCheckConstant());
+        outputImagePath = adaptiveThreshold(sourceImagePath, directoryName, checkAdaptiveMethod(), getCheckBlockSize(), getCheckConstant());
     }
 
     private int checkAdaptiveMethod() {
@@ -197,8 +212,16 @@ public class FilterActivity extends AppCompatActivity {
         double tau = Double.parseDouble(editTextTau.getText().toString());
         double phi = Double.parseDouble(editTextPhi.getText().toString());
 
-        //outputImagePath = xdog(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/AndroidImageFilter_Phoho", kappa, sigma, tau, phi);
-        outputImagePath = xdog2(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/AndroidImageFilter_Phoho");
+        /*BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inJustDecodeBounds = true;
+
+        //Returns null, sizes are in the options variable
+        BitmapFactory.decodeFile(sourceImagePath, options);
+        int width = options.outWidth;
+        int height = options.outHeight;*/
+
+        outputImagePath = xdog(sourceImagePath, directoryName, kappa, sigma, tau, phi);
+        outputImagePath = xdog2(sourceImagePath, directoryName);
     }
 
     private String getPath(Uri uri) {
