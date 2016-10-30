@@ -197,7 +197,7 @@ public class FilterActivity extends AppCompatActivity {
         double tau = Double.parseDouble(editTextTau.getText().toString());
         double phi = Double.parseDouble(editTextPhi.getText().toString());
 
-        outputImagePath = xdog(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/Artuino_photo", kappa, sigma, tau, phi);
+        outputImagePath = xdog(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/AndroidImageFilter_Phoho", kappa, sigma, tau, phi);
     }
 
     private String getPath(Uri uri) {

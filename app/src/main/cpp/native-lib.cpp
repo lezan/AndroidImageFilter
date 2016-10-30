@@ -130,5 +130,61 @@ extern "C" {
         }
         return env->NewStringUTF(pathWhereToSave.c_str());
     }
+
+    jstring
+    Java_lezan_androidimagefilter_FilterActivity_xdog2(JNIEnv *env, jobject, jstring imageSourcePathString, jstring imageOutputPathString) {
+        const char* imageSourcePath = env->GetStringUTFChars(imageSourcePathString, 0);
+        const char* imageOutputPath = env->GetStringUTFChars(imageOutputPathString, 0);
+        string imageNameOutput = "/xdog2.png";
+        string pathWhereToSave = imageOutputPath + imageNameOutput;
+
+        Mat img = imread(imageSourcePath, IMREAD_COLOR);
+
+        /* Creo una nuova matrice a partire dalla matrice sorgente */
+        Mat gray;
+        /* Converto la matrice sorgente in scala di grigi */
+        cvtColor(img, gray, COLOR_BGR2GRAY);
+
+        /* Creo la matrice che conterrà il risultato finale */
+        Mat result;
+
+        double tao = 0.9;
+        double eps = 3;
+        double phi = 20/255.0;
+
+        Mat filter1;
+        GaussianBlur(gray, filter1, Size(20, 20), 6);
+        Mat filter2;
+        GaussianBlur(gray, filter2, Size(20, 20), 1.5);
+
+        Mat image1;
+        filter2D(filter1, image1, -1, BORDER_CONSTANT);
+        Mat image2;
+        filter2D(filter2, image2, -1, BORDER_CONSTANT);
+
+        result = image2 - tao*image1;
+
+        Mat output = Mat::zeros(result.size(), result.type());
+
+        int min = 1;
+
+        for(int i = 1; i < result.rows; i++) {
+            for(int j = 1; j < result.cols; j++) {
+                if(result.at(i, j) >= eps) {
+                    output.at(i, j) = 1;
+                }
+                else {
+                    output.at(i, j) = 1 + tanh(phi*(result.at(i, j)) - eps);
+                 }
+            }
+        }
+
+        bool final = imwrite(pathWhereToSave, result);
+
+        if(!final) {
+            return env->NewStringUTF("False");
+        }
+        return env->NewStringUTF(pathWhereToSave.c_str());
+    }
 }
 
