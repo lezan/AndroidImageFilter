@@ -160,7 +160,7 @@ public class FilterActivity extends AppCompatActivity {
     }
 
     private void adaptiveThresholdMethod() {
-        outputImagePath = adaptiveThreshold(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/Artuino_photo", checkAdaptiveMethod(), getCheckBlockSize(), getCheckConstant());
+        outputImagePath = adaptiveThreshold(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/AndroidImageFilter", checkAdaptiveMethod(), getCheckBlockSize(), getCheckConstant());
     }
 
     private int checkAdaptiveMethod() {

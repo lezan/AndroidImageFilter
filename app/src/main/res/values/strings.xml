@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Artuino</string>
+    <string name="app_name" translatable="false">AndroidImageFilter</string>
     <string name="camera" translatable="false">Camera</string>
     <string name="gallery" translatable="false">Gallery</string>
     <string name="facebook" translatable="false">Facebook</string>
