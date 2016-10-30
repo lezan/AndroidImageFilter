@@ -197,7 +197,8 @@ public class FilterActivity extends AppCompatActivity {
         double tau = Double.parseDouble(editTextTau.getText().toString());
         double phi = Double.parseDouble(editTextPhi.getText().toString());
 
-        outputImagePath = xdog(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/AndroidImageFilter_Phoho", kappa, sigma, tau, phi);
+        //outputImagePath = xdog(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/AndroidImageFilter_Phoho", kappa, sigma, tau, phi);
+        outputImagePath = xdog2(sourceImagePath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/AndroidImageFilter_Phoho");
     }
 
     private String getPath(Uri uri) {
@@ -241,4 +242,5 @@ public class FilterActivity extends AppCompatActivity {
 
     public native String xdog(String imageSourcePath, String path, double kappa, double sigma, double tau, double phi);
     public native String adaptiveThreshold(String imageSourcePath, String path, int adaptiveMethod, int blockSize, double constant);
+    public native String xdog2(String imageSourcePath, String path);
 }
